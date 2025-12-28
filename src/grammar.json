@@ -1,4 +1,5 @@
 {
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/grammar.schema.json",
   "name": "umka",
   "word": "ident",
   "rules": {
@@ -3345,5 +3346,6 @@
     "builtinCall",
     "callStmt"
   ],
-  "supertypes": []
+  "supertypes": [],
+  "reserved": {}
 }

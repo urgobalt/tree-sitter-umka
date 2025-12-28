@@ -639,21 +639,6 @@
     }
   },
   {
-    "type": "designatorList",
-    "named": true,
-    "fields": {},
-    "children": {
-      "multiple": true,
-      "required": true,
-      "types": [
-        {
-          "type": "designator",
-          "named": true
-        }
-      ]
-    }
-  },
-  {
     "type": "dynArrayType",
     "named": true,
     "fields": {},
@@ -1858,6 +1843,7 @@
   {
     "type": "program",
     "named": true,
+    "root": true,
     "fields": {},
     "children": {
       "multiple": true,
@@ -2675,10 +2661,6 @@
     "named": false
   },
   {
-    "type": "'",
-    "named": false
-  },
-  {
     "type": "(",
     "named": false
   },
@@ -2772,7 +2754,8 @@
   },
   {
     "type": "comment",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "const",
